@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Restricted Page</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body class="text-center bg-light">
+<div class="container mt-5">
+    <h2 class="text-dark">Restricted Page</h2>
+    <p class="text-secondary mb-4">This page can only be accessed by users with the 'manager' role.</p>
+
+    <a href="/logout" class="btn btn-danger btn-lg mr-2">Logout</a>
+    <a href="/welcome" class="btn btn-primary btn-lg">Back to Welcome Page</a>
+</div>
+
+<!-- Include Bootstrap JS and Popper.js -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
